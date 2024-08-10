@@ -8,14 +8,14 @@ document.querySelector('#rowButton').addEventListener('click', function() {
     document.querySelector('.row-countdown-display').innerHTML = document.querySelector('#rows').value;
 });
 
-// function that lowers the rows left by 1 when you hit the plus button
+// function that raises the rows complete by 1 when you hit the plus button
 document.querySelector('.row-counter-plus').onclick = function() {
     if ((document.querySelector('.row-counter-display').innerHTML) > 0){
-        (document.querySelector('.row-counter-display').innerHTML)--;
+        (document.querySelector('.row-counter-display').innerHTML)++;
     }
  };
 
- // function that adds the rows left by 1 when you hit the minus button
+ // function that subtracts the rows complete by 1 when you hit the minus button
 document.querySelector('.row-counter-minus').onclick = function() {
-    (document.querySelector('.row-counter-display').innerHTML)++;
+    (document.querySelector('.row-counter-display').innerHTML)--;
  };
