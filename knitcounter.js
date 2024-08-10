@@ -1,15 +1,11 @@
-
-
-
-
- //function that resets the row count when you hit the reset button
+//function that resets the row count when you hit the reset button
  document.querySelector('.row-counter-reset').addEventListener('click', function() {
     document.querySelector('.row-counter-display').innerHTML= 0;
 });
 
 //call value and set innerhtml of the row count equal to this number
 document.querySelector('#rowButton').addEventListener('click', function() {
-    document.querySelector('.row-counter-display').innerHTML = document.querySelector('#rows').value;
+    document.querySelector('.row-countdown-display').innerHTML = document.querySelector('#rows').value;
 });
 
 // function that lowers the rows left by 1 when you hit the plus button
