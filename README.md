@@ -6,7 +6,7 @@ Through this project, I hope to exercise some of the basic html, css, and javasc
 
 <b>Goal:</b><br>
 Create a counter with:
-<ul>- A counter display</ul>
+<ul>- A counter display that never goes below 0 (because you can't knit -1 rows)</ul>
 <ul>- A - button that that decreases by 1 everytime you click it</ul>
 <ul>- A + button that that increases by 1 everytime you click it</ul>
 <ul>- A reset button that resets the number in the display</ul>
