@@ -1,21 +1,33 @@
 <!DOCTYPE html>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="knitcounter.css">
-    <body style="background-color:#F7F1F1;">
-        <div class="row-counter">
-        <h1>Row counter</h1>
-                <button class="row-counter-plus" align="center">+</button>
-            <h2 class="row-counter-display" align="center">0</h2>
-                <button class="row-counter-minus" align="center">-</button>
-                <br></br>
-                <button class="row-counter-reset" align="center">reset</button>
-                <br></br>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-quiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter and countdown</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class ="container">
+        <div class="card-body">
+            <h1 id="title">0</h1>
+            <div class="card-button">
+                <button id="plus">+</button>
+                <button id="reset">reset</button>
+                <button id="minus">-</button>
+            </div>
+                <h2 id="countdown">0</h2>
+                    <p>rows left</p>
+                <div class="card-countdown">
+                    <input id= "num" type="number" placeholder="Rows to complete" minlength=0>
+                    <button id="submit-button" type="submit">Submit</button>
+                </div>
         </div>
-                <h3 class="row-countdown-display" align="center">0</h3><h3>rows left</h3>
-                <br></br>
-                <p>Enter rows to complete</p>
-            <input id= "rows" type="number" placeholder="0" minlength=0>
-            <button id="rowButton" type="submit">Submit</button> 
-        <script type="text/javascript" src="knitcounter.js"></script>
-    </body>
+    </div>
+
+<script src="scripts.js"></script>
+</body>
+
 </html>
