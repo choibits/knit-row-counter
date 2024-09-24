@@ -62,9 +62,11 @@ button#reset {
 }
 button#submit-button {
     padding: 10px 10px 10px 10px;
+    font-family: 'Avenir', sans-serif;
 }
 input#num {
     padding: 10px 10px 10px 10px;
+    font-family: 'Avenir', sans-serif;
 }
 
 @media (max-width: 500px) {
