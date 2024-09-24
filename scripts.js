@@ -31,4 +31,6 @@ resetButton.addEventListener('click', () => {
 
 submitButton.addEventListener('click', () => {
     countdownDisplay.textContent = document.querySelector('#num').value;
+    displayValue = 0
+    titleDisplay.textContent = displayValue
 });
