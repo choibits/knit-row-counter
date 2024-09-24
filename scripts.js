@@ -24,7 +24,9 @@ minusButton.addEventListener('click', () => {
 
 resetButton.addEventListener('click', () => {
     displayValue = 0;
+    countdownValue = 0;
     titleDisplay.textContent = displayValue;
+    countdownDisplay.textContent = countdownValue;
 });
 
 submitButton.addEventListener('click', () => {
