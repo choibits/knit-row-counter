@@ -6,11 +6,12 @@ Through this project, I hope to exercise some of the basic html, css, and javasc
 
 <b>Goal:</b><br>
 Create a counter with:
-<ul>- A counter display that never goes below 0 (because you can't knit -1 rows)</ul>
-<ul>- A - button that that decreases by 1 everytime you click it</ul>
-<ul>- A + button that that increases by 1 everytime you click it</ul>
+<ul>- An input where the you can submit the number of rows they need to complete</ul>
+<ul>- A counter display to track the # rows you've completed and a countdown display that tracks the number of rows left to complete</ul>
+<ul>- A - button that that decreases the counter display by 1 and increases the countdown display by 1 everytime you click it</ul>
+<ul>- A + button that that increases the counter display by 1 and decreases the countdown display by 1 everytime you click it</ul>
 <ul>- A reset button that resets the number in the display</ul>
-Create a separate countdown number that you can submit an input value for how many rows you need to complete. The countdown number should decrease by 1 everytime you hit the + button and that increase by 1 everytime you hit the - button in the counter above it.
+<ul>- A pop up that let's you know you've completed the rows you submitted</ul>
 <br><br>
 
 <b>What I learned:</b><br>
